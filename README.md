@@ -1,4 +1,4 @@
-# Challenge 3
+# Simple React ToDo
 
 A simple yet robust todo list built using the React, TypeScript, Redux, and Typesafe Actions stack. This project showcases solid coding practices and a clean architecture, leveraging the strengths of each technology to create an efficient and user-friendly application.
 
