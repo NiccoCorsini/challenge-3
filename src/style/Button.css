@@ -1,0 +1,36 @@
+.custom-button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  outline: none;
+  color: #fffffe;
+  padding: 3px 6px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all 300ms;
+}
+
+.custom-button:hover {
+  transform: scale(1.1);
+}
+
+.custom-button:focus {
+  outline: none;
+}
+
+.custom-button:active {
+  animation-name: pulse;
+  animation-duration: 500ms;
+  animation-fill-mode: both;
+}
+
+.bg-danger {
+  background-color: #ef4565;
+}
+
+.bg-success {
+  background-color: #3da9fc;
+}

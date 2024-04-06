@@ -1,0 +1,11 @@
+.paper-wrapper {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 8px 0 16px 4px;
+  background: linear-gradient(-85deg, #fffffe, #e1f2ff);
+}
+
+.tasks-wrapper {
+  min-height: 400px;
+  width: 518px;
+  margin: 16px auto 20px;
+}

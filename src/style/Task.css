@@ -1,0 +1,65 @@
+.task-input {
+  background: none;
+  border: none;
+  font-size: 0.9em;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  outline: none;
+  border-bottom: 0.5px solid gray;
+}
+
+.task-input:focus {
+  outline: none;
+  border-bottom: 1.5px solid gray;
+}
+
+.custom-checkbox {
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+.custom-checkbox:active {
+  animation-name: pulse;
+  animation-duration: 500ms;
+  animation-fill-mode: both;
+}
+
+.date-picker-wrapper {
+  border-bottom: 0.5px solid rgba(128, 128, 128, 0.295);
+  padding-bottom: 6px;
+  margin-bottom: 6px;
+}
+
+.date-picker-input {
+  background: none;
+  border: none;
+  font-size: 0.9em;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  outline: none;
+  transition: all 300ms;
+}
+
+.date-picker-label {
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+.date-picker-icon {
+  font-size: 20px;
+  margin-right: 8px;
+  margin-left: 24px;
+  transition: all 300ms;
+  cursor: pointer;
+}
+
+.date-picker-icon:hover,
+.date-picker-input:hover,
+.date-picker-label:hover,
+.custom-checkbox:hover {
+  transform: scale(1.06);
+}
